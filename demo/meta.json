@@ -1,0 +1,48 @@
+{
+ "folder": "portfolio/internal_kb_qa",
+ "slug": "portfolio__internal_kb_qa",
+ "port": 8113,
+ "title": "Internal Knowledge-Base Q&A",
+ "one_liner": "Ask a policy question and get an answer that cites the file and chunk it came from, with retrieval done locally by MiniLM embeddings and a numpy cosine index, no hosted vector service.",
+ "duration_s": 60.8,
+ "highlight_s": 25.5,
+ "steps": [
+  {
+   "n": 1,
+   "text": "Internal knowledge base: the sidebar lists the indexed documents and their chunks",
+   "ok": true,
+   "t": 6.8
+  },
+  {
+   "n": 2,
+   "text": "Use sample: how do I request a leave of absence?",
+   "ok": true,
+   "t": 16.7
+  },
+  {
+   "n": 3,
+   "text": "Ask: the answer cites the file and chunk it came from",
+   "ok": true,
+   "t": 20.7
+  },
+  {
+   "n": 4,
+   "text": "Open the cited passage",
+   "ok": true,
+   "t": 31.0
+  },
+  {
+   "n": 5,
+   "text": "A second question: submitting a business expense",
+   "ok": true,
+   "t": 42.4
+  },
+  {
+   "n": 6,
+   "text": "Every answer is grounded: no citation, no claim",
+   "ok": true,
+   "t": 54.9
+  }
+ ],
+ "skipped": []
+}
